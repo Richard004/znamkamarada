@@ -9,19 +9,32 @@ namespace znamkamarada.Services.Library
 
     public class VignettePersistenceServiceTableStorage : IVignettePersistenceService
     {
-        private Task<CloudTable> jobStatusTableTask;
-        private string vignetteTableConnectionString = Environment.GetEnvironmentVariable("VIGNETTE-TABLE-CONNECTION-");
-        private string vignetteTableName = "";
-
-
+        public VignettePersistenceServiceTableStorage(IVignettePersistenceConfiguration configuration)
+        {
+            this.configuration = configuration;
+        }
+        private readonly IVignettePersistenceConfiguration configuration;
 
         private CloudTable CreateTable()
         {
-            var storageAccount = CloudStorageAccount.Parse(vignetteTableConnectionString);
+            var storageAccount = CloudStorageAccount.Parse(configuration.TableStorageConnectionString);
             var tableClient = storageAccount.CreateCloudTableClient();
-            var tableReference = tableClient.GetTableReference(vignetteTableName);
+            var tableReference = tableClient.GetTableReference(configuration.TableName);
             return tableReference;
         }
 
+        private async Task<CloudTable> GetTable()
+        {
+            var t = CreateTable();
+            if (await t.ExistsAsync() == false) {
+                await t.CreateIfNotExistsAsync();
+            }
+            return t;
+        }
+        public Task SaveVignette(LicencePlate licencePlate, DateTime dateTime, LicenceDuration licenceDuration)
+        {
+            var t = GetTable();
+            throw new NotImplementedException();
+        }
     }
 }

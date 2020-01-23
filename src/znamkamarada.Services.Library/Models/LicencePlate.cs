@@ -14,4 +14,5 @@
         public string ToKey() => $"{country}*{number}";
         public override string ToString() => ToKey();
     }
+
 }

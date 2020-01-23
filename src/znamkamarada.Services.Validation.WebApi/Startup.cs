@@ -29,6 +29,7 @@ namespace znamkamarada.Services.Validation.WebApi
             services.AddControllers();
             services.AddTransient<IVignetteValidationService, VignetteValidationService>();
             services.AddTransient<IVignettePersistenceService, VignettePersistenceServiceTableStorage>();
+            services.AddTransient<IVignettePersistenceConfiguration, VignettePersistenceConfiguration>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
