@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "znamkamarada.Services.Libra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "znamkamarada.Tests", "znamkamarada.Tests\znamkamarada.Tests.csproj", "{2B103D44-8AD7-4BB8-896F-DCBD15D5F0C9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "znamkamarada.Services.Validation.WebApi", "znamkamarada.Services.Validation.WebApi\znamkamarada.Services.Validation.WebApi.csproj", "{3990BB15-158E-44C1-85D6-B7813C5029B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2B103D44-8AD7-4BB8-896F-DCBD15D5F0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B103D44-8AD7-4BB8-896F-DCBD15D5F0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B103D44-8AD7-4BB8-896F-DCBD15D5F0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3990BB15-158E-44C1-85D6-B7813C5029B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3990BB15-158E-44C1-85D6-B7813C5029B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3990BB15-158E-44C1-85D6-B7813C5029B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3990BB15-158E-44C1-85D6-B7813C5029B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

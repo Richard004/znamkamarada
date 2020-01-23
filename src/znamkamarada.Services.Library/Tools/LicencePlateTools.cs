@@ -9,7 +9,7 @@ namespace znamkamarada.Services.Library.Tools
 
         /// <summary>
         /// https://lonewolfonline.net/list-net-culture-country-codes/
-        /// Valid form 'CZ;AZ8360'
+        /// Valid form 'CZ*AZ8360'
         /// </summary>
         /// <param name="inputString"></param>
         /// <param name="licencePlate"></param>
@@ -23,7 +23,7 @@ namespace znamkamarada.Services.Library.Tools
 
             var str = inputString.Replace(" ", "");
 
-            var semicollonPos = str.IndexOf(';');
+            var semicollonPos = str.IndexOf('*');
             if (semicollonPos < 0)
                 return false;
 
