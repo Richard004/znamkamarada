@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "znamkamarada.Services.Library", "znamkamarada.Services.Library\znamkamarada.Services.Library.csproj", "{43BFB18B-418B-46E9-9347-7A786A88B52B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "znamkamarada.Tests", "znamkamarada.Tests\znamkamarada.Tests.csproj", "{2B103D44-8AD7-4BB8-896F-DCBD15D5F0C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43BFB18B-418B-46E9-9347-7A786A88B52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BFB18B-418B-46E9-9347-7A786A88B52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BFB18B-418B-46E9-9347-7A786A88B52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BFB18B-418B-46E9-9347-7A786A88B52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B103D44-8AD7-4BB8-896F-DCBD15D5F0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B103D44-8AD7-4BB8-896F-DCBD15D5F0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B103D44-8AD7-4BB8-896F-DCBD15D5F0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B103D44-8AD7-4BB8-896F-DCBD15D5F0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B105C843-80A6-4541-BE22-F09F535BE14E}
+	EndGlobalSection
+EndGlobal
