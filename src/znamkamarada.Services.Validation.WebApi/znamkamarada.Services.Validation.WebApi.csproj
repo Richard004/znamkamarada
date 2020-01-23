@@ -1,12 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>0605d7a8-6b80-4ea4-8bb9-bb301a509f54</UserSecretsId>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\znamkamarada.Services.Library\znamkamarada.Services.Library.csproj" />
   </ItemGroup>
-
-
 </Project>
