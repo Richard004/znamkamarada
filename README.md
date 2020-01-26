@@ -1,6 +1,10 @@
 # znamkamarada
 Let's try to save at least a part of 400 000 000 CZK from the state budget of the Czech Republic
 
+# toto neni repository nakonec použitého řešení pro ferznamka.cz
+Tato repository vznikla večer před soutěží jako jeden možný návrh řešení. Nakonec jsme použili jiný a lepší přístup.
+Pokud bude použitá repository zveřejněná, umístím zde odkaz.
+
 # web
 https://znamkamarada.cz/
 
